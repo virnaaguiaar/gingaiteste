@@ -1,0 +1,4 @@
+# Configuração mínima do Supabase CLI para o gingaiteste.
+# Troque pelo "Reference ID" do SEU projeto (Project Settings > General).
+# Vincular: supabase link --project-ref SEU_REFERENCE_ID
+project_id = "SEU_REFERENCE_ID"

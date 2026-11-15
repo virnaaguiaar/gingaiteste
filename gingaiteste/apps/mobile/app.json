@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "GingAI Teste",
+    "slug": "gingaiteste",
+    "scheme": "gingaiteste",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#fdf2f8",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gingaiteste.app"
+    },
+    "android": {
+      "package": "com.gingaiteste.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#f62681",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "O GingAI usa os sensores de movimento para contar seus passos de dança e gerar pontos."
+        }
+      ]
+    ]
+  }
+}

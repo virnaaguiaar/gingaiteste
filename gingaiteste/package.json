@@ -1,0 +1,20 @@
+{
+  "name": "gingaiteste",
+  "private": true,
+  "description": "GingAI Teste: cópia de estudo do GingAI (web Next.js + mobile Expo) ligada ao Baile 10D",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w web",
+    "dev:mobile": "npm run start -w mobile",
+    "build:web": "npm run build -w web",
+    "test": "npm run test -w @gingai/core",
+    "typecheck": "npm run typecheck -w @gingai/core && npm run typecheck -w web && npm run typecheck -w mobile",
+    "lint": "npm run lint -w web && npm run lint -w mobile"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
